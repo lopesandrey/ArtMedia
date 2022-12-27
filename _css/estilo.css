@@ -9,6 +9,7 @@ nav {
     background-color: rgba(0,0,0,0.3);
     z-index: 2;
 }
+
 nav h3 {
     position: absolute;
     left: 30px; top: -25px;
@@ -19,6 +20,7 @@ nav h3 {
     letter-spacing: 0.6;
     
 }
+
 nav h3 a {
   text-decoration: none;
   color: #dddddd ;
@@ -29,10 +31,12 @@ nav ul#menu-desktop {
     padding: 0;
     text-align: right;
 }
+
 nav ul#menu-desktop li {
     list-style-type: none;
     display: inline;
 }
+
 nav ul#menu-desktop li a {
     padding: 30px 40px;
     text-decoration: none;
@@ -46,9 +50,11 @@ nav ul#menu-desktop li a {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+
 nav ul#menu-desktop li a:hover {
     background-color: rgb(19, 204, 186);
 }
+
 nav ul#menu-mobile, nav div#menu-btn {
    display: none;
 }
